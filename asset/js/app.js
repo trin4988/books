@@ -13,7 +13,7 @@ const books = [
 //og så tilføjer den indhold til min class hvor den skaber nedståene html 
 books.forEach(function(book){
     fbooks.innerHTML += ` 
-    <img src="./asset/img/${book[0]}" alt="">
+    <img loading="lazy" src="./asset/img/${book[0]}" alt="">
     <div>
     <h2 class="title">${book[1]}</h2>
     <h3 class="author">${book[2]}</h3>
