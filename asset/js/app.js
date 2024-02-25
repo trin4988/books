@@ -9,7 +9,8 @@ const books = [
 ["TheGirlYouLeftBehind.jpeg", "The Girl You Left Behind", "Jojo Moyes", "Vi befinder os i Frankrig, år 1916. Sophie Lefevre skal sørge for at holde sin familie i sikkerhed, mens hendes elskede mand Edouard kæmper i fronten. Da tyske officerer kræver behandling på hendes hotel, begynder tingene at smildre. Et portræt af Sophie, malet af Edouard, kommer til at få stor betydning - især for eftertiden. Jojo Moyes står bag The Girl You Left Behind, der handler om fortid, nutid og fremtid. Næsten et århundrede efter Sophies levetid, bliver hendes portræt foræret til en kvinde i bryllupsgave. Nu er det på tide at finde ud af portrættets historie. The Girl You Left Behind handler om at kæmpe for kærligheden - uanset prisen."],
 ];
 
-//
+//den her funktion henter indholdet fra mine arrays oven over
+//og så tilføjer den indhold til min class hvor den skaber nedståene html 
 books.forEach(function(book){
     fbooks.innerHTML += ` 
     <img src="./asset/img/${book[0]}" alt="">
@@ -20,6 +21,6 @@ books.forEach(function(book){
     </div>
     `;
 })
-
+//det er ikke det skukkeste jeg har lavet men lidt får du da ;) 
 
 
